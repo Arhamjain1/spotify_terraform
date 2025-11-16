@@ -77,7 +77,7 @@ docker build -t spotify-auth-proxy-custom .
 docker run --rm -it -p 27228:27228 --env-file .env spotify-auth-proxy-custom
 ```
 
-When the container runs it will show an auth URL — open it in your browser and complete the OAuth flow. The proxy exchanges tokens and exposes a local auth server that Terraform can use.
+When the container runs it will show an auth URL open it in your browser and complete the OAuth flow. The proxy exchanges tokens and exposes a local auth server that Terraform can use.
 
 ---
 
