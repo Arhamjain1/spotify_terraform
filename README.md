@@ -21,8 +21,7 @@ You can:
 
 ---
 
-## 📁 Project structure (example)
-
+## 📁 Project structure
 ```
 Spotify_TF/
 ├── provider.tf      # Terraform provider configuration
