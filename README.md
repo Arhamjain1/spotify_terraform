@@ -75,6 +75,7 @@ cd ./spotify_auth_proxy/
 docker build -t spotify-auth-proxy-custom .
 # run the proxy (it will listen on port 27228)
 docker run --rm -it -p 27228:27228 --env-file .env spotify-auth-proxy-custom
+#Edit the API key file and enter the api shown on your terimal there in double quotes.
 ```
 
 When the container runs it will show an auth URL open it in your browser and complete the OAuth flow. The proxy exchanges tokens and exposes a local auth server that Terraform can use.
