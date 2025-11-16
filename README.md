@@ -39,7 +39,7 @@ Before running the project, install:
 * **Docker Desktop**
 * **Terraform** (1.3+ recommended)
 * **Git**
-* A **Spotify Developer App** — create one at: [https://developer.spotify.com/dashboard](https://developer.spotify.com/dashboard)
+* A **Spotify Developer App**- create one at: [https://developer.spotify.com/dashboard](https://developer.spotify.com/dashboard)
 
 ---
 
